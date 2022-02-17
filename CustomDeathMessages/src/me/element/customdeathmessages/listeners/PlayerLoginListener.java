@@ -1,4 +1,4 @@
-package me.element.customdeathmessages.listeners;
+package me.element.listeners;
 
 import java.io.IOException;
 import java.io.InputStream;

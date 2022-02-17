@@ -1,4 +1,4 @@
-package me.element.customdeathmessages.commands;
+package me.element.commands;
 
 import java.util.ArrayList;
 import java.util.Arrays;

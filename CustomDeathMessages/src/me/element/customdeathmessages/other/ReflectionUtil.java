@@ -1,4 +1,4 @@
-package me.element.customdeathmessages.other;
+package me.element.other;
 
 import org.bukkit.Bukkit;
 import org.bukkit.entity.Player;

@@ -1,4 +1,4 @@
-package me.element.customdeathmessages.other;
+package me.element.other;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;

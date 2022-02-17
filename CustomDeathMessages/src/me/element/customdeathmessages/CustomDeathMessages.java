@@ -1,4 +1,4 @@
-package me.element.customdeathmessages;
+package me.element;
 
 import java.util.HashMap;
 
@@ -69,6 +69,10 @@ public class CustomDeathMessages extends JavaPlugin {
 		else if (getServer().getVersion().contains("1.17"))
 		{
 			return VersionEnums.VERSION_117;
+		}
+		else if (getServer().getVersion().contains("1.18"))
+		{
+			return VersionEnums.VERSION_118;
 		}
 
 		else return VersionEnums.OTHER_VERSION;
