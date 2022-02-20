@@ -1,13 +1,14 @@
 name: CustomDeathMessages
-version: 1.7.2
+version: "${project.version}"
 main: me.element
 description: Custom Death Messages made by Element_85
 author: Element_85
-api: 1.7.2
+api-version: 1.13
 
 commands:
-  cdm:
-    aliases: ["customdeathmessages"]
+  customdeathmessages:
+    aliases:
+    - cdm
     description: Command used for reloading.
     permission: cdm.reload
 
