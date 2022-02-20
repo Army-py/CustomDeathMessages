@@ -1,0 +1,21 @@
+name: CustomDeathMessages
+version: "${project.version}"
+main: me.element.customdeathmessages.CustomDeathMessages
+description: Custom Death Messages made by Element_85
+author: Element_85
+api-version: 1.13
+
+commands:
+  customdeathmessages:
+    aliases:
+    - cdm
+    description: Command used for reloading.
+    permission: cdm.reload
+
+permissions:
+  cdm.reload:
+    description: Permission used for reloading.
+  cdm.updates:
+    description: Permission used for sending update messages to ops.
+  cdm.toggle:
+    description: Permission for toggline features in config.
