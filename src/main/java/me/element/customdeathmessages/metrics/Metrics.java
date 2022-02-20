@@ -1,4 +1,4 @@
-package me.element.metrics;
+package me.element.customdeathmessages.metrics;
 
 import com.google.gson.JsonArray;
 import com.google.gson.JsonElement;

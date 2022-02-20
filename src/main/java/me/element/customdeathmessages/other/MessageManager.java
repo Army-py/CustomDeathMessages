@@ -1,4 +1,4 @@
-package me.element.other;
+package me.element.customdeathmessages.other;
 
 public class MessageManager {
 

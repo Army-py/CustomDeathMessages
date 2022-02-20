@@ -1,4 +1,4 @@
-package me.element.commands;
+package me.element.customdeathmessages.commands;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -12,7 +12,7 @@ import org.bukkit.command.CommandSender;
 import org.bukkit.command.TabCompleter;
 import org.bukkit.util.StringUtil;
 
-import me.element.CustomDeathMessages;
+import me.element.customdeathmessages.CustomDeathMessages;
 
 public class CustomDeathMessagesCommand implements CommandExecutor, TabCompleter 
 {

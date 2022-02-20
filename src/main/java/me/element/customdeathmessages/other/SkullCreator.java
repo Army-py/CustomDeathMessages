@@ -1,4 +1,4 @@
-package me.element.other;
+package me.element.customdeathmessages.other;
 
 import java.lang.reflect.Field;
 import java.lang.reflect.InvocationTargetException;
@@ -19,8 +19,8 @@ import org.bukkit.inventory.meta.SkullMeta;
 import com.mojang.authlib.GameProfile;
 import com.mojang.authlib.properties.Property;
 
-import me.element.CustomDeathMessages;
-import me.element.enums.VersionEnums;
+import me.element.customdeathmessages.CustomDeathMessages;
+import me.element.customdeathmessages.enums.VersionEnums;
 
 @SuppressWarnings("deprecation")
 public class SkullCreator {

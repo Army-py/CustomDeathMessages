@@ -1,4 +1,4 @@
-package me.element.enums;
+package me.element.customdeathmessages.enums;
 
 public enum Paths {
 

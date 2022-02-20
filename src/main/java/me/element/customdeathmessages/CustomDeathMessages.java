@@ -1,16 +1,16 @@
-package me.element;
+package me.element.customdeathmessages;
 
 import java.util.HashMap;
 
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import me.element.commands.CustomDeathMessagesCommand;
-import me.element.enums.VersionEnums;
-import me.element.listeners.PlayerDeathListener;
-import me.element.listeners.PlayerKilledByEntityListener;
-import me.element.listeners.PlayerLoginListener;
-import me.element.metrics.Metrics;
+import me.element.customdeathmessages.commands.CustomDeathMessagesCommand;
+import me.element.customdeathmessages.enums.VersionEnums;
+import me.element.customdeathmessages.listeners.PlayerDeathListener;
+import me.element.customdeathmessages.listeners.PlayerKilledByEntityListener;
+import me.element.customdeathmessages.listeners.PlayerLoginListener;
+import me.element.customdeathmessages.metrics.Metrics;
 
 public class CustomDeathMessages extends JavaPlugin {
 

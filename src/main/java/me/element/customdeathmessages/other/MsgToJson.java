@@ -1,4 +1,4 @@
-package me.element.other;
+package me.element.customdeathmessages.other;
 
 import net.md_5.bungee.api.chat.BaseComponent;
 import net.md_5.bungee.api.chat.ComponentBuilder;

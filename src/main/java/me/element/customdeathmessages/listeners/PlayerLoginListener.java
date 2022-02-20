@@ -1,4 +1,4 @@
-package me.element.listeners;
+package me.element.customdeathmessages.listeners;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -14,8 +14,8 @@ import org.bukkit.event.player.PlayerLoginEvent;
 import org.bukkit.plugin.Plugin;
 import org.bukkit.scheduler.BukkitRunnable;
 
-import me.element.CustomDeathMessages;
-import me.element.other.CustomConsumer;
+import me.element.customdeathmessages.CustomDeathMessages;
+import me.element.customdeathmessages.other.CustomConsumer;
 
 public class PlayerLoginListener implements Listener {
 

@@ -1,4 +1,4 @@
-package me.element.listeners;
+package me.element.customdeathmessages.listeners;
 
 import java.util.List;
 import java.util.Random;
@@ -15,12 +15,12 @@ import org.bukkit.event.entity.PlayerDeathEvent;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.SkullMeta;
 
-import me.element.CustomDeathMessages;
-import me.element.enums.VersionEnums;
-import me.element.other.HexChat;
-import me.element.other.JsonChat;
-import me.element.other.MsgToJson;
-import me.element.other.SkullCreator;
+import me.element.customdeathmessages.CustomDeathMessages;
+import me.element.customdeathmessages.enums.VersionEnums;
+import me.element.customdeathmessages.other.HexChat;
+import me.element.customdeathmessages.other.JsonChat;
+import me.element.customdeathmessages.other.MsgToJson;
+import me.element.customdeathmessages.other.SkullCreator;
 
 public class PlayerDeathListener implements Listener {
 

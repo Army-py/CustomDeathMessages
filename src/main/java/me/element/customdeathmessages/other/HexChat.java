@@ -1,11 +1,11 @@
-package me.element.other;
+package me.element.customdeathmessages.other;
 
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import me.element.CustomDeathMessages;
-import me.element.enums.VersionEnums;
+import me.element.customdeathmessages.CustomDeathMessages;
+import me.element.customdeathmessages.enums.VersionEnums;
 import net.md_5.bungee.api.ChatColor;
 
 public class HexChat {

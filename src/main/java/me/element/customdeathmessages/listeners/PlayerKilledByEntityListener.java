@@ -1,4 +1,4 @@
-package me.element.listeners;
+package me.element.customdeathmessages.listeners;
 
 import java.util.List;
 import java.util.Random;
@@ -10,8 +10,8 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.entity.EntityDamageByEntityEvent;
 
-import me.element.CustomDeathMessages;
-import me.element.enums.VersionEnums;
+import me.element.customdeathmessages.CustomDeathMessages;
+import me.element.customdeathmessages.enums.VersionEnums;
 
 public class PlayerKilledByEntityListener implements Listener {
 

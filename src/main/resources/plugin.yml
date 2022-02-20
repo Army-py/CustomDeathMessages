@@ -1,6 +1,6 @@
 name: CustomDeathMessages
 version: "${project.version}"
-main: me.element
+main: me.element.customdeathmessages.CustomDeathMessages
 description: Custom Death Messages made by Element_85
 author: Element_85
 api-version: 1.13
