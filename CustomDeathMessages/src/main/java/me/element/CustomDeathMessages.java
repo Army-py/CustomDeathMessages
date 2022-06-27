@@ -74,6 +74,10 @@ public class CustomDeathMessages extends JavaPlugin {
 		{
 			return VersionEnums.VERSION_118;
 		}
+		else if (getServer().getVersion().contains("1.19"))
+		{
+			return VersionEnums.VERSION_119;
+		}
 
 		else return VersionEnums.OTHER_VERSION;
 	}

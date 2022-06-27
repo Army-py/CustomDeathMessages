@@ -261,6 +261,14 @@ zombified-piglin-messages:
     - "&c%victim% &etook a piglin to the overworld and was murdered by their new, not so friendly pet"
     - "&c%victim% &edied to a transformed piglin"
 
+goat-messages:
+    - "&c%victim% &ewas ejected !"
+    - "&c%victim% &ereceived a horn blow !"
+
+warden-messages:
+    - "&c%victim% &ewas crushed !"
+    - "&c%victim% &emade too much noise !"
+
 # This is for any messages that haven't been added, so if you die to a cause which doesn't have any messages,
 #  one of these messages will display instead. (Please report any missing messages in my spigot discussion)
 unknown-messages:

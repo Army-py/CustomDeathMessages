@@ -149,6 +149,10 @@ public class PlayerKilledByEntityListener implements Listener {
 						path = "hoglin-messages";
 					} else if (versionInt >= VersionEnums.VERSION_116.getVersionInt() && entity == EntityType.ZOMBIFIED_PIGLIN) { // 1.16
 						path = "zombified-piglin-messages";
+					} else if (versionInt >= VersionEnums.VERSION_117.getVersionInt() && entity == EntityType.GOAT) { // 1.17
+						path = "goat-messages";
+					} else if (versionInt >= VersionEnums.VERSION_119.getVersionInt() && entity == EntityType.WARDEN) { // 1.19
+						path = "warden-messages";
 					}
 
 					if (hasCustomName && plugin.getConfig().getBoolean("enable-custom-name-entity-messages"))
